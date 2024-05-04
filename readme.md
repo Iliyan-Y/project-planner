@@ -21,3 +21,13 @@
     - refactor to CLEAN/HEX architecture?
   - sqlite for db
   -
+
+# Backend Endpoints
+
+- /project
+  - get -> list all
+  - post -> create project
+- /project/\<id\>
+  - get -> get single entry
+  - put -> update single by id
+  - delete -> delete by id
